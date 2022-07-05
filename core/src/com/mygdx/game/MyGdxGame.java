@@ -31,7 +31,7 @@ public class MyGdxGame extends ApplicationAdapter {
         Gdx.gl.glClear(GL_COLOR_BUFFER_BIT);
 
         batch.begin();
-        elapsedTime += Gdx.graphics
+        //elapsedTime += Gdx.graphics
         batch.end();
     }
 
