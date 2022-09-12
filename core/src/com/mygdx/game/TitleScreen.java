@@ -7,11 +7,12 @@ import com.badlogic.gdx.ScreenAdapter;
 
 
 public class TitleScreen extends ScreenAdapter {
-    HelloWorldGame game;
+  HelloWorldGame game;
 
     public TitleScreen(HelloWorldGame game) {
         this.game = game;
     }
+
     @Override
     public void show() {
         Gdx.input.setInputProcessor(new InputAdapter() {
@@ -25,5 +26,5 @@ public class TitleScreen extends ScreenAdapter {
             });
 
         }
+
     }
-}
